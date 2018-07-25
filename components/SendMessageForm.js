@@ -2,8 +2,8 @@ import React from 'react'
 
 class SendMessageForm extends React.Component {
     
-    constructor() {
-        super()
+    constructor(props) {
+        super(props)
         this.state = {
             message: ''
         }
