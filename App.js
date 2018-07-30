@@ -7,8 +7,7 @@ import NewRoomForm from './components/NewRoomForm'
 
 import { tokenUrl, instanceLocator } from './config'
 
-class App extends React.Component {
-    
+class App extends React.Component { 
     constructor() {
         super()
         this.state = {
